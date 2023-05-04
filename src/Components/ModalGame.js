@@ -147,7 +147,7 @@ function ModalGame() {
                     <img alt="Brain" className='w-25 h-25' src={"https://emojigraph.org/media/apple/nerd-face_1f913.png"} />
                   </>}
                   {point > 300 && point < 499 && <><p className='text-capitalize fs-4 fw-bold text-warning'>{pointText}</p>
-                    <img alt="walnuts" className='w-25 h-25 ' src={"https://www.google.com/search?q=succesful&tbm=isch&ved=2ahUKEwiqlOOQpdv-AhWBhqQKHcX9Ay4Q2-cCegQIABAA&oq=succesful&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB46CAgAEIAEELEDOggIABCxAxCDAToHCAAQigUQQzoLCAAQgAQQsQMQgwFQ3AlY_Dtgjz9oAHAAeACAAaUBiAGtCJIBAzUuNZgBAKABAaoBC2d3cy13aXotaW1nsAEAwAEB&sclient=img&ei=xnJTZKqZLIGNkgXF-4_wAg&bih=781&biw=1707&rlz=1C1FKPE_trTR980TR980#imgrc=Yegm8cZrwV9BLM"} />
+                    <img alt="walnuts" className='w-25 h-25 ' src={"https://cdn.dribbble.com/users/1292088/screenshots/9526341/media/fe10b026049426a3189d2c4614250301.jpg?compress=1&resize=400x300"} />
                   </>}
                   {point > 201 && point < 299 && <><p className='text-capitalize fs-4 fw-bold text-warning'>{pointText}</p>
                     <img alt="walnuts" className='w-25 h-25 ' src={"https://media.istockphoto.com/id/813141786/tr/vekt%C3%B6r/ifade-etmek-patates-ifade.jpg?s=612x612&w=0&k=20&c=tfMlh6abE1l9DoURjncnBLuudbY7L6jYH1MbzB8FrnY="} />
