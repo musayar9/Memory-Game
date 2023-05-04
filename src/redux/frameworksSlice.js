@@ -34,7 +34,8 @@ export const frameworksSlice = createSlice({
         matchFrameworks:(state)=>{         
             state.point = state.point + 50;
             state.openFramework=[]
-            state.status="win"           
+            state.status="win"    
+            state.count += 2       
         },
 
         unMatchFrameworks:(state)=>{
