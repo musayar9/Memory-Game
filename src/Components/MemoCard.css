@@ -1,0 +1,155 @@
+.transitionCard {
+    transition: all;
+    transition-duration: 400ms;
+    transform-style: preserve-3d;
+}
+
+.transitionRotate {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+.transitionStateCard{
+    transform: rotateY(0deg);
+}
+.try:hover {
+    color: red;
+}
+
+.cardHeader {
+    width: 72rem;
+    height: 60px;
+    
+}
+
+.cardQuestion {
+    width: 4rem;
+    height: 60px;
+    inset: 0;
+    backface-visibility: hidden;
+}
+
+.cardImage {
+    width: 4rem;
+    height: 60px;
+}
+
+.cardBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+  
+}
+.rotateCard {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    inset: 0;
+   
+}
+
+
+.openCard {
+    opacity: 0.1;
+}
+
+div.is-disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.5;
+
+}
+
+
+
+.cardHeight {
+    height: 57vh;
+}
+.cardImageStatus {
+    width: 75%;
+    height: 100%;
+}
+
+
+@media only screen and (min-width: 480px) {
+    .cardHeader {
+        width: 70rem;
+        height: 60px;
+        cursor: pointer;
+    }
+
+    .cardQuestion {
+        width: 7rem;
+        height: 60px;
+        inset: 0;
+    }
+
+    .cardImage {
+        width: 7rem;
+        height: 60px;
+    }
+
+    .cardBody {
+        width: 50%;
+        height: 50%;
+    }
+    .cardHeight {
+        height: 60vh;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .cardHeader {
+        width: 59rem;
+        height: 90px;
+        cursor: pointer;
+    }
+
+    .cardQuestion {
+        width: 9rem;
+        height: 90px;
+        inset: 0;
+    }
+
+    .cardImage {
+        width: 9rem;
+        height: 90px;
+    }
+
+    .cardBody {
+        width: 40%;
+        height: 60%;
+    }
+    .cardHeight {
+        height: 90vh;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cardHeader {
+        width: 42rem;
+        height: 150px;
+        cursor: pointer;
+    }
+
+    .cardQuestion {
+        width: 10rem;
+        height: 120px;
+        inset: 0;
+    }
+
+    .cardImage {
+        width: 10rem;
+        height: 120px;
+    }
+
+    .cardBody {
+        width: 100%;
+        height: 60%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardHeight {
+        height: 110vh;
+    }
+}
