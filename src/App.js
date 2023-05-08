@@ -10,7 +10,7 @@ import ModalGame from './Components/ModalGame';
 function App() {
 
   return (
-    <div className="App">
+    <div className="text-center">
 
       <Navbar />
       <Header />

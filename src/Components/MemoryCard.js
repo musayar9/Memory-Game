@@ -53,7 +53,7 @@ function MemoryCard({ framework, isOpen }) {
 
     return (
 
-        <div className='d-flex align-items-center justify-content-center' >
+        <div className='d-flex align-items-center justify-content-center ml-5' >
             <div aria-disabled={isDisabled} className={`${isDisabled ? "is-disabled" : ""}    ${checking ? "pe-none " : framework.status ? "pe-none" : "pe-auto"} d-flex align-items-center justify-content-center rounded-3 p-0 p-sm-2 cardHeader`} onClick={()=>setOpencard(true)}   >
                 <div className='cardBody'>
                     <div aria-disabled={checking} className={`position-relative rounded-3 shadow transitionCard ${framework.status && "transitionRotate"} 
@@ -65,7 +65,7 @@ function MemoryCard({ framework, isOpen }) {
                         </div>
                         <div className={`position-absolute rounded-3 text-info shadow rotateCard`}>
                             <div className={`card-image d-flex flex-column align-items-center rounded-3 justify-content-center shadow p-2  cardImage ${framework.status ? "bg-success" : "bg-danger"}`} >
-                                <img className='p- sm-p-2 p-md-3 p-lg-4 cardImageStatus' src={"https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/" +
+                                <img className='p-1 p-sm-2 p-md-3 p-lg-4 cardImageStatus' src={"https://raw.githubusercontent.com/samiheikki/javascript-guessing-game/master/static/logos/" +
                                     framework.name +
                                     ".png"} alt={framework.name} />
                             </div>

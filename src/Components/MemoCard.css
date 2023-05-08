@@ -94,7 +94,7 @@ div.is-disabled {
         height: 50%;
     }
     .cardHeight {
-        height: 60vh;
+        height: 48vh;
     }
 }
 
@@ -117,11 +117,13 @@ div.is-disabled {
     }
 
     .cardBody {
-        width: 40%;
-        height: 60%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .cardHeight {
-        height: 90vh;
+        height: 55vh;
     }
 }
 
