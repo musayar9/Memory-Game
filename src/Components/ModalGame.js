@@ -139,7 +139,7 @@ function ModalGame() {
                 </>}
           
                 </ul>
-                <>    {point > 600 && <> <p className='text-capitalize  fs-4 fw-bold text-warning'>{pointText}</p>
+                <>    {point >= 600 && <> <p className='text-capitalize  fs-4 fw-bold text-warning'>{pointText}</p>
                   <img alt="Genius" className='w-50 h-25 rounded-5' src={"https://i.ytimg.com/vi/i_LWl2vpvfE/maxresdefault.jpg"} />
                   <p className='fs-5  fw-bolder text-capitalize '>well done damn dog</p>
                 </>}
